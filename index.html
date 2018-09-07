@@ -12,6 +12,8 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body>
@@ -19,18 +21,62 @@
 
     <!-- HEADER -->
     <div id="header">
-      <h1>Clément DUMUR</h1>
-      <h2>Développeur Web</h2>
+      <div id="title">
+        <div id="com-begin"></div>
+        <h1>Clément DUMUR</h1>
+        <h2>Développeur Web</h2>
+        <div id="com-end"></div>
+      </div>
     </div>
 
     <!-- ABOUT SECTION -->
-    <div id="about">
-      <h3>A Propos de moi</h3>
+    <div id="about" class="row">
+
+      <div class="col-md-4 col-sm-12 dark_syntax">
+        <img src="img/photo.JPG" alt="Clément DUMUR" id="photo_id" class="center-block">
+      </div>
+
+      <div class="col-md-8 col-sm-12">
+        <h4>Bonjours à vous</h4>
+        <p>Un super texte que j'ai pas encore écrit</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Ipsam commodi maiores cumque velit maxime quisquam unde. Alias, temporibus facilis voluptate ratione, 
+          natus veritatis mollitia consequatur est fugit dolorem error perferendis?</p>
+      </div>
     </div>
 
     <!-- SKILLS SECTION -->
     <div id="skills">
-      <h3>Mes Compétences</h3>
+      <div class="row">
+        <div class="col-md-6 col-md-12">
+          <h2>PHP</h2>
+        </div>
+        <div class="col-md-6 col-md-12 dark_syntax">
+          <h2>Javascript</h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills">
+      <div class="row">
+        <div class="col-md-6 col-md-12 dark_syntax">
+          <h2>Python</h2>
+        </div>
+        <div class="col-md-6 col-md-12">
+          <h2>HTML</h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills">
+      <div class="row">
+        <div class="col-md-6 col-md-12">
+          <h2>BD</h2>
+        </div>
+        <div class="col-md-6 col-md-12 dark_syntax">
+          <h2>Autres</h2>
+        </div>
+      </div>
     </div>
 
     <!-- WORKS SECTION -->

@@ -1,0 +1,63 @@
+.dark_syntax{
+    background-color: #1e1e1e;
+}
+
+html, body, main{
+  height: 100%;
+  background-color: #f9fafa;
+}
+
+/* HEADER */
+
+#header{
+    min-height: 100%;
+    background-image: url("../img/editor_f.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    background-attachment: fixed;
+
+}
+
+#title{
+    text-align: center;
+    background-color: #f9fafa;
+    margin: auto;
+}
+
+#com-begin, #com-end{
+    text-align: left;
+}
+#com-begin:before {
+  content: " /**";
+  font-size : 5em;
+}
+
+#com-end:before {
+  content: "\00a0*/";
+  font-size : 5em;
+}
+
+#title h1:before {
+  content: " \00a0* ";
+}
+
+#title h2:before {
+    content: " \00a0* ";
+    font-size : 1.5em;
+}
+
+#title h1{
+    font-size : 5em;
+}
+
+#title h2{
+    font-size : 3em;
+    text-align: left;
+}
+
+/* ABOUT SECTION */
+#photo_id{
+    width: 85%;
+    height: 85%;
+}
