@@ -38,7 +38,7 @@ mark{
 }
 
 .dark_syntax{
-    background-color: #1e1e1e;
+    background-color: #34343e;
     font-weight: bold;
 }
 
@@ -152,3 +152,30 @@ html, body, main{
     padding: 20px;
     font-size: 1.2em;
 }
+
+/* SKILLS SECTION */
+
+#skills {
+    padding-top: 20px;
+}
+#skills h5{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.circles-wrp{
+    margin-left: 40%;
+}
+
+#skills p{
+    margin-left: 40%;
+    font-size : 20px;
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+#skills .dark_syntax p, #skills .dark_syntax h5{
+    color: #f9fafa;
+}
+
