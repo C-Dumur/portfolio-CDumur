@@ -7,7 +7,6 @@ var php_circle = Circles.create({
     maxValue: 100,
     width: 10,
     text: '',
-    //text: function (value) { return value + '%'; },
     colors: ['#f9fafa', '#6699cc'],
     duration: 400,
     wrpClass: 'circles-wrp',
@@ -165,7 +164,6 @@ var html_circle = Circles.create({
     maxValue: 100,
     width: 10,
     text: '',
-    //text: function (value) { return value + '%'; },
     colors: ['#f9fafa', '#cb95c6'],
     duration: 400,
     wrpClass: 'circles-wrp',
@@ -196,7 +194,7 @@ var css_circle = Circles.create({
 var bootstrap_circle = Circles.create({
     id: 'bootstrap_circle',
     radius: 50,
-    value: 65,
+    value: 60,
     maxValue: 100,
     width: 10,
     text: '',
@@ -213,11 +211,64 @@ var bootstrap_circle = Circles.create({
 var prepro_circle = Circles.create({
     id: 'prepro_circle',
     radius: 50,
-    value: 30,
+    value: 45,
     maxValue: 100,
     width: 10,
     text: '',
     colors: ['#f9fafa', '#cb95c6'],
+    duration: 400,
+    wrpClass: 'circles-wrp',
+    textClass: 'circles-text',
+    valueStrokeClass: 'circles-valueStroke',
+    maxValueStrokeClass: 'circles-maxValueStroke',
+    styleWrapper: true,
+    styleText: true
+});
+
+// section BD
+
+var mysql_circle = Circles.create({
+    id: 'mysql_circle',
+    radius: 50,
+    value: 35,
+    maxValue: 100,
+    width: 10,
+    text: '',
+    colors: ['#f9fafa', '#f97b60'],
+    duration: 400,
+    wrpClass: 'circles-wrp',
+    textClass: 'circles-text',
+    valueStrokeClass: 'circles-valueStroke',
+    maxValueStrokeClass: 'circles-maxValueStroke',
+    styleWrapper: true,
+    styleText: true
+});
+
+var sqlite_circle = Circles.create({
+    id: 'sqlite_circle',
+    radius: 50,
+    value: 70,
+    maxValue: 100,
+    width: 10,
+    text: '',
+    colors: ['#f9fafa', '#f97b60'],
+    duration: 400,
+    wrpClass: 'circles-wrp',
+    textClass: 'circles-text',
+    valueStrokeClass: 'circles-valueStroke',
+    maxValueStrokeClass: 'circles-maxValueStroke',
+    styleWrapper: true,
+    styleText: true
+});
+
+var mongo_circle = Circles.create({
+    id: 'mongo_circle',
+    radius: 50,
+    value: 45,
+    maxValue: 100,
+    width: 10,
+    text: '',
+    colors: ['#f9fafa', '#f97b60'],
     duration: 400,
     wrpClass: 'circles-wrp',
     textClass: 'circles-text',
