@@ -182,3 +182,59 @@ html, body, main{
     color: #f9fafa;
 }
 
+/* MY WORKS SECTION */
+
+#works h3 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f9fafa
+}
+
+.btn-works{
+    background-color: #34343e;
+    color: #f97b60;
+    border: 1px solid #f97b60;
+}
+
+.project{
+    padding: 20px;
+}
+.project_contain{
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.img_project{
+    margin-left: 5%;
+    width:90%;
+    height: 30%;
+}
+
+.project_dark h3{
+    color: #f97b60;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.project_dark p{
+    color: #f9fafa;
+}
+
+.link_dark a{
+    text-align: left;
+    color: #f97b60;
+    border:solid 2px #f97b60;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.link_dark a:hover{
+    text-align: left;
+    color: #f9fafa;
+    border:solid 2px #f97b60;
+    background-color: #f97b60;
+    padding: 5px;
+    font-weight: bold;
+}
