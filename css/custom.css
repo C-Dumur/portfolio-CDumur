@@ -1,3 +1,10 @@
+.custom_row {
+ display: -webkit-box;
+ display: -webkit-flex;
+ display: -ms-flexbox;
+ display: flex;
+}
+
 /* COLOR SYNTAX */
 mark{
     background-color: transparent;
@@ -237,4 +244,35 @@ html, body, main{
     background-color: #f97b60;
     padding: 5px;
     font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+    margin: 20px;
+}
+footer h4::before{
+    content: '/* '
+}
+
+footer h4::after{
+    content: ' */ '
+}
+footer h4{
+    font-size: 18px;
+    color: lightgray;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+.light_editor{
+    background-image: url('../img/editor.png');
+    background-position: 5% 20%;
+}
+
+.dark_editor{
+    background-image: url('../img/editor_dark.png');
+    /* background-position: 5% 20%; */
 }
