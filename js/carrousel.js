@@ -10,5 +10,14 @@ $(document).ready(function () {
         appendArrows: toolBox,
         nextArrow: "<button class=\"btn-works\" id=\"next_arrow\">>></button>",
         prevArrow:"<button class=\"btn-works\" id=\"prev_arrow\"><<</button></button>",
+        responsive: [
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+        ]
     })
 });

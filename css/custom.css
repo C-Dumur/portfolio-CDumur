@@ -326,6 +326,7 @@ html, body, main{
 
 footer {
     margin: 20px;
+    padding-bottom: 20px;
 }
 footer h4::before{
     content: '/* '
