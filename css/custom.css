@@ -44,8 +44,18 @@ mark{
     font-weight: bold;
 }
 
+.syntax_light_orange{
+    color: #f9b088;
+    font-weight: bold;
+}
+
 .dark_syntax{
     background-color: #34343e;
+    font-weight: bold;
+}
+
+.light_syntax{
+    background-color: #f9fafa;
     font-weight: bold;
 }
 
@@ -65,18 +75,23 @@ html, body, main{
 .action_red{
     border-color: #ec5f66;
     color: #ec5f66;
+    display: block;
 }
 .action_blue{
     border-color: #6699cc;
     color: #6699cc;
+    display: block;
+
 }
 .action_green{
     border-color: #99c794;
     color: #99c794;
+    display: block;
 }
 .action_purple{
     border-color: #cb95c6;
     color: #cb95c6;
+    display: block;
 }
 
 .action_red:hover{
@@ -113,12 +128,9 @@ html, body, main{
 }
 
 #title{
-    text-align: center;
     background-color: #f9fafa;
     margin: auto;
-    border: 3px solid black;
     padding: 50px;
-    background-color: lightgray; 
 }
 
 #com-begin, #com-end{
@@ -154,8 +166,10 @@ html, body, main{
 
 /* ABOUT SECTION */
 #photo_id{
-    width: 85%;
-    height: 85%;
+    width: 75%;
+    height: 75%;
+    margin: 5%;
+    padding-left: 20px; 
 }
 
 .about_text{
@@ -166,9 +180,12 @@ html, body, main{
 /* SKILLS SECTION */
 
 #skills {
-    padding-top: 20px;
+    margin-top: 30px;
+    background-color: #34343e;
 }
 #skills h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -185,7 +202,17 @@ html, body, main{
     font-weight: 200;
 }
 
-.other_skills p, .other_skills h5{
+.skill{
+    padding-bottom: 10px;
+}
+
+.other_skills p{
+    color: #f9fafa;
+}
+
+/* HACK COULEUR CIRCLE */
+
+.dark_syntax .circles-text{
     color: #f9fafa;
 }
 
@@ -194,6 +221,7 @@ html, body, main{
     min-height: 90vh;
 }
 #works h3 {
+    padding-top: 10px; 
     text-align: center;
     font-size: 35px;
     font-weight: bold;
@@ -307,14 +335,17 @@ footer h4::after{
     content: ' */ '
 }
 footer h4{
-    font-size: 18px;
-    color: lightgray;
+    font-size: 20px;
+    color: #696969;
 }
 
 footer p{
     font-size: 1.2em;
 }
 
+.contact{
+    margin-left: 5%;
+}
 .light_editor{
     background-image: url('../img/editor.png');
     background-position: 5% 20%;
@@ -322,5 +353,4 @@ footer p{
 
 .dark_editor{
     background-image: url('../img/editor_dark.png');
-    /* background-position: 5% 20%; */
 }

@@ -15,7 +15,6 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="js/vendor/slick/slick.css">
-  <!-- <link rel="stylesheet" href="js/vendor/slick/slick-theme.css"> -->
 </head>
 
 <body>
@@ -25,8 +24,8 @@
     <div id="header">
       <div id="title">
         <div id="com-begin"></div>
-        <h1>Clément DUMUR</h1>
-        <h2>Développeur Web</h2>
+        <h1 id='name'>Clément DUMUR</h1>
+        <h2 id="dev"></h2>
         <div id="com-end"></div>
       </div>
     </div>
@@ -41,35 +40,38 @@
       <div class="col-md-6 col-md-offset-1 col-sm-12 about_text">
         <h4 class="syntax_blue">Bienvenue sur mon portfolio</h4>
         <p>Je m’appelle <mark class="syntax_blue">Clément Dumur</mark> et suis <mark class="syntax_green">développeur web</mark> junior.</p>
-        <p>Je suis titulaire d’un <mark class="syntax_purple">D.U.T Informatique</mark> préparé à <mark class="syntax_purple">l’I.U.T d’Orléans</mark> entre <mark class="syntax_purple">2015 et 2016</mark>. Durant cette formation, j’ai
-        choisi de me spécialiser dans le <mark class="syntax_green">domaine du web </mark>, intéressé par la <mark class="syntax_green">multitude de technologies</mark> à utiliser et à découvrir qu’il
-        propose. Je me suis donc inscrit en <mark class="syntax_purple">Licence Professionnelle</mark> Réseaux et Télécommunication <mark class="syntax_purple">spécialité développement web et
-        mobilité</mark>, toujours à l’I.U.T d’Orléans, diplôme que j’ai obtenu en <mark class="syntax_purple">juin 2018 </mark>.</p>
+        <p>Je suis titulaire d’un <mark class="syntax_purple">D.U.T Informatique</mark> préparé à <mark class="syntax_purple">l’I.U.T d’Orléans</mark> entre <mark class="syntax_purple">2015 et 2017</mark>. Durant cette formation, j’ai
+        choisi de me spécialiser dans le <mark class="syntax_green">domaine du web</mark>, qui offre une <mark class="syntax_green">multitude de technologies</mark> à découvrir. Je me suis donc inscrit en <mark class="syntax_purple">Licence Professionnelle</mark> Réseaux et Télécommunication <mark class="syntax_purple">spécialité développement web et
+        mobilité</mark>, toujours à l’I.U.T d’Orléans, diplôme que j’ai obtenu en <mark class="syntax_purple">juin 2018</mark>.</p>
 
-        <p>Principalement intéressé par le développement back-end, je travaille en majorité en <mark class="syntax_red">PHP</mark>, avec ou sans frameworks. Je maîtrise
-        cependant <mark class="syntax_red">l’HTML</mark> et le <mark class="syntax_red">CSS</mark> pour le coté Front-end</mark>. Enfin j’apprécie grandement le <mark class="syntax_red">JavaScript</mark> ainsi que son très vaste écosystème.</p>
+        <p>Principalement intéressé par le développement back-end, je travaille le plus souvent en <mark class="syntax_red">PHP</mark>, avec ou sans frameworks. Je maîtrise
+        cependant <mark class="syntax_red">l’HTML</mark> et le <mark class="syntax_red">CSS</mark> pour le coté Front-end</mark>. Enfin j’apprécie grandement le <mark class="syntax_red">Javascript</mark> ainsi que son très vaste écosystème.</p>
       
         <div class="row">
+
           <div class="col-sm-3">
-            <div class="action action_red">
+            <a class="action action_red" href="PDF/CV.pdf" target="_blank">
               CV
-            </div>
+            </a>
           </div>
+
+
           <div class="col-sm-3">
-            <div class="action action_blue">
+            <a class="action action_blue" href="https://www.linkedin.com/in/cl%C3%A9ment-dumur-b8b716130/" target="_blank">
               Linkedin
-            </div>
+            </a>
           </div>
-          <div class="col-sm-3">
-            <div class="action action_green">
-              Github
+            <div class="col-sm-3">
+              <a class="action action_green" href="https://github.com/C-Dumur" target="_blank">
+                Github
+              </a>
             </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="action action_purple">
-              Mail
+
+            <div class="col-sm-3">
+              <a class="action action_purple" href="mailto:clement.dumur12@gmail.com" target="_blank">
+                Mail
+              </a>
             </div>
-          </div>
         </div>
       </div>
     </div>
@@ -77,7 +79,7 @@
     <!-- SKILLS SECTION -->
     <div id="skills">
       <div class="row">
-        <div class="col-md-6 col-md-12">
+        <div class="col-md-6 col-md-12 light_syntax">
           <h5 class="syntax_blue">PHP</h5>
           <div class="row">
             <div class="col-md-4 col-sm-12 center-block">
@@ -87,7 +89,7 @@
 
             <div class="col-md-4 col-sm-12">
               <div class="circle" id="cake_circle"></div>
-              <p class="skill syntax_blue">CakePhp</p>
+              <p class="skill syntax_blue">CakePHP</p>
             </div>
 
             <div class="col-md-4 col-sm-12">
@@ -142,7 +144,7 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-md-12">
+        <div class="col-md-6 col-md-12 light_syntax">
           <h5 class="syntax_purple">Front End</h5>
           <div class="row">
             <div class="col-md-3 col-sm-12 center-block">
@@ -168,7 +170,7 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-md-12">
+        <div class="col-md-6 col-md-12 light_syntax">
           <h5 class="syntax_dark_orange">Base de données</h5>
             <div class="row">
               <div class="col-md-4 col-sm-12 center-block">
@@ -188,17 +190,18 @@
             </div>
       </div>
         <div class="col-md-6 col-md-12 dark_syntax other_skills">
-          <h5>Autres</h5>
-          <p>Langues : Français, Anglais technique, notion d'espagnol</p>
-          <p>Outils de versionement : Git, GitLab, Github</p>
-          <p>Conception : Merise, UML</p>
-          <p>Autres notions : Java, Unix, composants web (polymer) </p>
+          <h5 class="syntax_light_orange">Autres</h5>
+          <p><mark class="syntax_light_orange">Langues</mark> : Anglais technique, notions d'espagnol</p>
+          <p><mark class="syntax_light_orange">Outils de versionement</mark> : Git, GitLab, Github</p>
+          <p><mark class="syntax_light_orange">Conception</mark> : Merise, UML</p>
+          <p><mark class="syntax_light_orange">Autres notions</mark> : Java, Unix, composants web (polymer) </p>
         </div>
       </div>
+    </div>
       
       <!-- WORKS SECTION -->
       <div id="works" class="row dark_syntax">
-        <h3>Mes Travaux</h3>
+        <h3>Projets réalisés</h3>
           <div class="tool_box">
             <div id="btn_div"></div>  
           </div>
@@ -210,13 +213,14 @@
               <div>
                 <img src="img/ban_latv.png" alt="Banniere LivrEATonVoisin" class="img_project">
               </div>
-              <p>Rôle : Participation au développement (2 membres)</p>
-              <p>Cadre du projet : Stage Codi-one</p>
+              <p><mark class="syntax_dark_orange">Rôle</mark> : Participation au développement (2 membres)</p>
+              <p><mark class="syntax_dark_orange">Cadre du projet</mark> : Stage Codi-one</p>
               <p>Participation au développement principalement back-end de la plateforme de mise en relation entre particuliers
               LivrEATonVoisin. Tâches principales réalisées, évolutions du module création et modification de comptes (Profil public,
               vérification des informations pour l’utilisation de l’API Stripe), participation au développement de la messagerie
               interne de la plateforme, Intégration d’envoi de mails automatiques, mise en place de l’inscription ainsi que la
               connexion par Facebook et tests utilisateurs manuels.</p>
+              <p><mark class="syntax_dark_orange">Technologies utilisées</mark> : CakePHP, Bootstrap, JQuery, Facebook Connect, SDK Facebook</p>
                 <p class="link_dark"><a href="https://livreatonvoisin.fr/" alt="LivrEATonVoisin" target="_blank"><i class="glyphicon glyphicon-link">Voir le site</i></a></p>
           </div>
 
@@ -226,12 +230,13 @@
                 
                 <img src="img/ban_jma.png" alt="Banniere JMA" class="img_project">
               </div>
-              <p>Rôle : développeur</p>
-              <p>Cadre du projet : Stage Codi-one</p>
+              <p><mark class="syntax_blue">Rôle</mark> : développeur</p>
+              <p><mark class="syntax_blue">Cadre du projet</mark> : Stage Codi-one</p>
               <p>Développement du site vitrine de l’entreprise en collaboration avec l’agence de communication Simon & Partner’s.
               Adaptation et intégration d’un template HTML5/CCS3. Développement de module de blog, d’avis clients et de contact.
               Création d’un panneau back-office pour la modération des commentaires et d’édition de pages et d’articles de blog.</p>
-                <p class="link_light"><a href="http://www.jma-travauxagricoles.fr/" alt="JMA Travaux agricoles" target="_blank"><i class="glyphicon glyphicon-link">Voir
+              <p><mark class="syntax_blue">Technologies utilisées</mark> : CakePHP, Bootstrap, JQuery</p>
+              <p class="link_light"><a href="http://www.jma-travauxagricoles.fr/" alt="JMA Travaux agricoles" target="_blank"><i class="glyphicon glyphicon-link">Voir
                   le site</i></a></p>
             </div>
 
@@ -242,12 +247,13 @@
               <div>
                 <img src="img/ban_lba.png" alt="Banniere La Boite Auto" class="img_project">
               </div>
-              <p>Rôle : Développeur</p>
-              <p>Cadre du projet : Stage Codi-one</p>
+              <p><mark class="syntax_dark_orange">Rôle</mark> : Développeur</p>
+              <p><mark class="syntax_dark_orange">Cadre du projet</mark> : Stage Codi-one</p>
               <p>Développement du site vitrine de l’entreprise La Boite Auto en collaboration avec le gérant de l’entreprise. Adaptation
               et intégration d’un template HTML5/CSS3 choisi par le client. Développement d’un module de blog, de gestion de code
               d’erreurs et de FAQ, de demande de devis et de contact. Création d’un panneau de back-office pour l’édition des pages,
-              d’articles de blog et de FAQ. Test et optimisation du site pour accélérer le chargement du site.</p>
+              d’articles de blog et de FAQ. Tests et optimisations du site pour accélérer le chargement des pages.</p>
+              <p><mark class="syntax_dark_orange">Technologies utilisées</mark> : CakePHP, Bootstrap, JQuery</p>
               <p class="link_dark"><a href="https://laboiteauto.fr/" alt="La Boite Auto" target="_blank"><i class="glyphicon glyphicon-link">Voir
                     le site</i></a></p>
             </div>
@@ -258,14 +264,16 @@
             <div>
               <img src="img/ban_demfal.png" alt="Banniere Déménager Facile" class="img_project">
             </div>
-            <p>Rôle : Participation au développement</p>
-            <p>Cadre du projet : Stage Codi-one</p>
+            <p><mark class="syntax_blue">Rôle</mark> : Participation au développement</p>
+            <p><mark class="syntax_blue">Cadre du projet</mark> : Stage Codi-one</p>
             <p>Réalisation de plusieurs missions pour l’entreprise Déménager Facile sous la direction d’un chef de projet de
-            l’entreprise et en utilisant la méthode agile. Développement d’un script de gestion et de génération de Facture et de
+            l’entreprise et en utilisant la méthode agile. Développement d’un script de gestion et de génération de facture et de
             devis en PDF en PHP avec FPDF.
             Participation au développement de la nouvelle version de la plateforme (encore en développement). Développement
             front-end du panneau de gestion des déménagements. Intégration à la plateforme de l’API Mandrill et de templates
             MailChimp pour l’envoi automatique de mails.</p>
+            <p><mark class="syntax_blue">Technologies utilisées (version en ligne)</mark> : PHP5, MySQL, FPDF, CSS3 </p>
+            <p><mark class="syntax_blue">Technologies utilisées (nouvelle version en développement)</mark> : PHP7, Silex, Twig, MySQL, Phinx, SCSS, API Mandrill, MailChimp </p>
             <p class="link_light"><a href="https://www.demenagerfacile.com/" alt="Déménager Facile" target="_blank"><i class="glyphicon glyphicon-link">Voir
               le site</i></a></p>
           </div>
@@ -274,33 +282,33 @@
 
     <footer>
       <div class="row custom_row">
-        <div class="hidden-xs hidden-sm col-md-3 dark_editor">
+        <div class="hidden-xs hidden-sm col-md-3 light_editor">
         </div>
-        <div class="col-md-4 col-xs-12">
+        <div class="col-md-4 col-xs-12 contact">
          <h4>Me contacter</h4>
          <p>Clément DUMUR</p>
          <p><mark class="syntax_blue">Email</mark>: clement.dumur12@gmail.com</p>
          <p><mark class="syntax_green">Téléphone</mark> : 06.40.71.39.39</p>
                 <div class="row">
                   <div class="col-sm-3">
-                    <div class="action action_red">
-                      Linkedin
-                    </div>
+                    <a class="action action_red" href="https://www.linkedin.com/in/cl%C3%A9ment-dumur-b8b716130/" target="_blank">
+                        Linkedin
+                    </a>
                   </div>
-                  <div class="col-sm-3">
-                    <div class="action action_blue">
-                      Github
-                    </div>
-                  </div>
+            <div class="col-sm-3">
+              <a class="action action_blue" href="https://github.com/C-Dumur" target="_blank">
+                Github
+              </a>
+            </div>
                 </div>
         </div>
         <div class="col-md-4 col-xs-12">
-         <h4>Recomandation</h4>
+         <h4>Recommandation</h4>
             <div class="row">
               <div class="col-sm-6">
-              <div class="action action_purple">
+                <a class="action action_purple" href="PDF/recommandation_codione.pdf" target="_blank">
                   Fabien BERTELET
-                </div>
+                </a>
               </div>
             </div>
         </div>
