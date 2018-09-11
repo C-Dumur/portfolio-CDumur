@@ -1,10 +1,3 @@
-.custom_row {
- display: -webkit-box;
- display: -webkit-flex;
- display: -ms-flexbox;
- display: flex;
-}
-
 /* COLOR SYNTAX */
 mark{
     background-color: transparent;
@@ -347,14 +340,29 @@ footer p{
     font-size: 1.2em;
 }
 
-.contact{
-    margin-left: 5%;
-}
 .light_editor{
     background-image: url('../img/editor.png');
-    background-position: 5% 20%;
+    background-position: 12% 50%;
 }
 
 .dark_editor{
     background-image: url('../img/editor_dark.png');
+}
+
+
+.row_custom{
+ overflow: hidden; 
+}
+
+.col_custom{
+ margin-bottom: -99999px;
+ padding-bottom: 99999px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+footer .col-md-4{
+    padding-left: 5%;
 }
