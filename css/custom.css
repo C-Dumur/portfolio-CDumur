@@ -216,6 +216,9 @@ html, body, main{
     color: #f9fafa;
 }
 
+#skills > .row{
+    background-color: #34343e;
+}
 /* MY WORKS SECTION */
 #works{
     min-height: 90vh;
