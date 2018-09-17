@@ -2,4 +2,27 @@
     .action{
         margin-bottom: 10px;
     }
+
+    .switch_white{
+        background-color: #f9fafa;
+    }
+
+    .switch_white .circles-text{
+        color: #34343e;
+    }
+
+    .switch_black{
+        background-color: #34343e;
+    }
+
+    .switch_black .circles-text{
+        color: #f9fafa;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .col-skill{
+        height: 25vh;
+        padding: auto;
+    }
 }
