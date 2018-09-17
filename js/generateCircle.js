@@ -37,7 +37,7 @@ var cake_circle = Circles.create({
 var symfony_circle = Circles.create({
     id: 'symfony_circle',
     radius: 50,
-    value: 45,
+    value: 55,
     maxValue: 100,
     width: 10,
     text: function(value){return value + '%';},
@@ -107,7 +107,7 @@ var symfony_circle = Circles.create({
 var js_circle = Circles.create({
     id: 'js_circle',
     radius: 50,
-    value: 60,
+    value: 65,
     maxValue: 100,
     width: 10,
     text: function(value){return value + '%';},
@@ -160,7 +160,7 @@ var node_circle = Circles.create({
 var html_circle = Circles.create({
     id: 'html_circle',
     radius: 50,
-    value: 65,
+    value: 70,
     maxValue: 100,
     width: 10,
     text: function(value){return value + '%';},

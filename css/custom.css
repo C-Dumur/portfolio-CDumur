@@ -184,6 +184,11 @@ html, body, main{
     font-weight: bold;
 }
 
+
+.skill_row{
+    background-color:#f9fafa;
+}
+
 .circles-wrp{
     margin-left: 40%;
 }
@@ -209,9 +214,7 @@ html, body, main{
     color: #f9fafa;
 }
 
-#skills > .row{
-    background-color: #34343e;
-}
+
 /* MY WORKS SECTION */
 #works{
     min-height: 90vh;
